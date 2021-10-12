@@ -6,6 +6,7 @@ public class binarySearch {
     }
 
     //returns position of s in sorted array, if s not in array, returns -1
+    //runtime O(log(n))
     public static int binSearch(int [] in, int s) {
         int left = 0; 
         int right = in.length-1; 
