@@ -8,7 +8,7 @@ public class BubbleSort {
     }
 
     //sorts an input array in-place
-    //runtime O8(n)
+    //runtime O(n)
     public static int[] bubbleSort(int [] in ) {
         for (int j=0; j<in.length-1; j++) {
             for (int i=0; i<in.length-1; i++) {
